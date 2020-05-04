@@ -20,5 +20,5 @@ Vue.filter('snippet', function(value){
 new Vue({
   el: '#app',
   render: h => h(App),
-  router: router
+  router
 })

@@ -29,11 +29,11 @@ export default {
     }).then(function(data){
       var blogsArray = [];
       for(let key in data){
-        //console.log(data[key]);
+
         data[key].id = key;
         blogsArray.push(data[key]);
       }
-      //console.log(blogsArray);
+
       this.blogs = blogsArray;
     })
   },
